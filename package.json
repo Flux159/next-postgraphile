@@ -1,0 +1,23 @@
+{
+  "name": "nextgraphql",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "graphile-build-pg": "4.5.3",
+    "next": "9.3.4",
+    "pg": "8.0.0",
+    "postgraphile": "4.6.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@types/pg": "7.14.3",
+    "@types/react": "16.9.32",
+    "typescript": "3.8.3"
+  }
+}
