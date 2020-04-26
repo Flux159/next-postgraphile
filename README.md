@@ -1,4 +1,6 @@
-# Lightweight starter template for next.js apps with postgraphile
+# next-postgraphile
+
+A lightweight starter template for next.js apps with postgraphile.
 
 This starter template is a [Next.js](https://nextjs.org/) project that integrates [typescript](https://www.typescriptlang.org/) and [postgraphile](https://github.com/graphile/postgraphile) for quick graphql apis from built from postgres schemas.
 
