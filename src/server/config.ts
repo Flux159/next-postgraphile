@@ -5,5 +5,5 @@ export const config = {
     DB_USER: process.env.DB_USER || 'next-postgraphile',
     DB_PASSWORD: process.env.DB_PASSWORD || 'test1234',
     DB_PORT: parseInt(process.env.DB_PORT, 10) || 5432,
-    DB_SCHEMA: 'forum_example',
+    DB_SCHEMA: 'next-postgraphile',
 }
