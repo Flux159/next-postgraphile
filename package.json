@@ -9,10 +9,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "graphile-build-pg": "4.5.3",
+    "graphile-build-pg": "4.7.0",
     "next": "9.3.4",
-    "pg": "8.0.0",
-    "postgraphile": "4.6.0",
+    "pg": "8.0.3",
+    "postgraphile": "4.7.0",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
