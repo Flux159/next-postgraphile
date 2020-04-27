@@ -30,6 +30,10 @@ yarn dev
 
 For other commands, building, etc. this repo is the same as a next.js app started with `yarn create next-app`.
 
+## Graphiql and Graphql endpoints
+
+In development, the graphiql endpoint is located at [http://localhost:3000/api/graphiql](http://localhost:3000/api/graphiql) and the graphql query endpoint is at [http://localhost:3000/api/graphql](http://localhost:3000/api/graphql).
+
 ## Notes
 
 Deployment has not been tested with now.sh or lambda/serverless. This repo is better suited as a starter template for VM or container deployment in a traditional client-server architecture.
