@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-import postgraphile from "../../../src/server/postgraphile";
-import runMiddleware from "../../../src/server/runMiddleware";
+import postgraphile from "src/server/postgraphile";
+import runMiddleware from "src/server/runMiddleware";
 
 // Endpoint needed for graphiql
 export default async (req: NextApiRequest, res: NextApiResponse) => {

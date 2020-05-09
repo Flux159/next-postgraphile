@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-import postgraphile from "../../src/server/postgraphile";
-import runMiddleware from "../../src/server/runMiddleware";
+import postgraphile from "src/server/postgraphile";
+import runMiddleware from "src/server/runMiddleware";
 
 // Graphiql route that handles rendering graphiql
 // https://github.com/graphql/graphiql

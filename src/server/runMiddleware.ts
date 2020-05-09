@@ -6,7 +6,7 @@ export default function runMiddleware(
   fn: any
 ) {
   return new Promise((resolve, reject) => {
-    fn(req, res, (result) => {
+    fn(req, res, (result: any) => {
       if (result instanceof Error) {
         return reject(result);
       }

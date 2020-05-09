@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-import postgraphile from "../../src/server/postgraphile";
-import runMiddleware from "../../src/server/runMiddleware";
+import postgraphile from "src/server/postgraphile";
+import runMiddleware from "src/server/runMiddleware";
 
 // GraphQL route that handles queries
 export default async (req: NextApiRequest, res: NextApiResponse) => {

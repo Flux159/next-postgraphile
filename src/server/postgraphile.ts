@@ -1,4 +1,4 @@
-import { config } from "./config";
+import { config } from "src/server/config";
 import { Pool } from 'pg';
 import { postgraphile } from "postgraphile";
 
