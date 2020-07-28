@@ -1,6 +1,6 @@
 
 // Simple sharable component
-export default () => {
+const Hero = () => {
   return (
     <div>
       <h1 className="title">
@@ -65,3 +65,5 @@ export default () => {
     </div>
   );
 };
+
+export default Hero;
