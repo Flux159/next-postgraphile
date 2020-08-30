@@ -13,6 +13,7 @@ const pool = new Pool({
 export {pool as pg};
 
 export default postgraphile(
+  // @ts-ignore - see https://github.com/graphile/postgraphile/issues/1313
   pool,
   config.DB_SCHEMA,
   {

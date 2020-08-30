@@ -12,7 +12,7 @@
     "graphile-build-pg": "4.7.0",
     "next": "9.5.0",
     "pg": "8.0.3",
-    "postgraphile": "4.7.0",
+    "postgraphile": "4.8.0",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
