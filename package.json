@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "graphile-build-pg": "4.9.2",
-    "next": "10.0.3",
+    "next": "11.1.0",
     "pg": "8.5.1",
     "postgraphile": "4.9.2",
     "react": "17.0.1",
